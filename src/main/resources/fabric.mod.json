@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "migrationcapehider",
+  "version": "${version}",
+  "name": "Migration Cape Hider",
+  "description": "Hides the Microsoft Migration Cape",
+  "authors": [
+    "XanderJ"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/migrationcapehider/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "migrationcapehider.MigrationCapeHider"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "migrationcapehider.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7"
+  }
+}

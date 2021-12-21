@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "migrationcapehider.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "PlayerListEntryMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
